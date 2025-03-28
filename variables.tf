@@ -168,19 +168,19 @@ variable "tfstate_name" {
 variable "central_vpc_id" {
   description = "ID della VPC centrale esistente"
   type        = string
-  default     = "vpc-084642c215c19ab1c"  # Dai tuoi dati precedenti
+  default     = "vpc-xxxxxxxxxxxxxxxx"  # Dai tuoi dati precedenti
 }
 
 variable "central_route_table_id" {
   description = "ID della route table della VPC centrale"
   type        = string
-  default     = "rtb-07fe6b0aea9c3d65b"  # rtb associata a proxy subnet
+  default     = "rtb-xxxxxxxxxxxxxxxx"  # rtb associata a proxy subnet
 }
 
 variable "proxy_instance_id" {
   description = "ID dell'istanza EC2 del proxy nella VPC centrale"
   type        = string
-  default     = "i-0f9e7ac0577dd6004"  # id bastion
+  default     = "i-xxxxxxxxxxxxxxxxxxxxx"  # id bastion
 }
 
 variable "proxy_port" {
