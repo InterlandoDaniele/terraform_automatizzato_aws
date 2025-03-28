@@ -1,0 +1,15 @@
+output "alb_sg_id" { value = aws_security_group.alb.id }
+output "rds-lambda_sg_id" { value = aws_security_group.rds-lambda.id }
+output "lambda-rds_sg_id" { value = aws_security_group.lambda-rds.id }
+output "rds-ec2_sg_id" { value = aws_security_group.rds-ec2.id }
+output "ec2-rds_sg_id" { value = aws_security_group.ec2-rds.id }
+output "rds-db-analytics_sg_id" { value = aws_security_group.rds-db-analytics.id }
+output "backend_sg_id" { value = aws_security_group.backend.id }
+# output "xscraper_sg_id" { value = aws_security_group.xscraper.id }
+output "frontend_sg_id" { value = aws_security_group.frontend.id }
+output "fileupload_sg_id" { value = aws_security_group.fileupload.id }
+# output "instagram_scraper_sg_id" { value = aws_security_group.instagram_scraper.id }
+# output "facebook_scraper_sg_id" { value = aws_security_group.facebook_scraper.id }
+output "ssh_sg_id" { value = aws_security_group.ssh.id }
+output "uscita_sg_id" { value = aws_security_group.uscita.id }
+output "scrapers_sg_id" { value = aws_security_group.scrapers.id }
