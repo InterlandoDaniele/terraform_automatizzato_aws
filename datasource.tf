@@ -38,9 +38,9 @@ data "aws_ami" "ubuntu" {
 }
 
 # certificato mediaminer letsencrypt
-# data.aws_acm_certificate.mediaminer.arn
-data "aws_acm_certificate" "mediaminer" {
-  domain      = "mediaminer.it"
+# data.aws_acm_certificate.cliente1.arn
+data "aws_acm_certificate" "cliente1" {
+  domain      = "cliente1.it"
   statuses    = ["ISSUED"]
   most_recent = true
 }
